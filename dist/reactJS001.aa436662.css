@@ -1,10 +1,15 @@
 .header {
+  border: solid #000;
   justify-content: space-between;
   display: flex;
 }
 
 .logo {
   width: 100px;
+}
+
+.nav-items {
+  font-size: 18px;
 }
 
 .nav-items > ul {
@@ -14,6 +19,17 @@
 
 .nav-items > ul > li {
   margin: 10px;
+  padding: 10px;
+}
+
+.res-card {
+  border: 1px solid #000;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.search {
   padding: 10px;
 }
 /*# sourceMappingURL=reactJS001.aa436662.css.map */

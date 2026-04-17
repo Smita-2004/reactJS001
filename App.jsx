@@ -36,9 +36,22 @@ const Header = () =>{
     );
 };
 
+const RestaurantCards = ()=>{
+    return(
+        <div className="res-card">
+            <h3>Meghna Foods</h3>
+        </div>
+        
+    );
+};
 const Body = () =>{
     return (
-        <h1>This is body</h1>
+        <div className="body">
+            <div className="search"> Search</div>
+            <div className="res-container">
+                <RestaurantCards/>
+            </div>
+        </div>
     );
 };
 
