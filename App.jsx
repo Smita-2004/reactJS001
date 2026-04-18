@@ -39,6 +39,7 @@ const Header = () =>{
 const RestaurantCards = ()=>{
     return(
         <div className="res-card">
+            <img className="res-logo" alt="re-logo" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qz5a5ieamhqgiwygrnrl"></img>
             <h3>Meghna Foods</h3>
         </div>
         
