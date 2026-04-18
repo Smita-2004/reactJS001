@@ -41,6 +41,8 @@ const RestaurantCards = ()=>{
         <div className="res-card">
             <img className="res-logo" alt="re-logo" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qz5a5ieamhqgiwygrnrl"></img>
             <h3>Meghna Foods</h3>
+            <h5>Biryani, North Indian, Chinese</h5>
+            <h5>4.4 stars</h5>
         </div>
         
     );
@@ -56,18 +58,18 @@ const Body = () =>{
     );
 };
 
-const Footer = () =>{
-    return(
-    <h1>This is Footer</h1>
-    );
-};
+// const Footer = () =>{
+//     return(
+//     <h1>This is Footer</h1>
+//     );
+// };
 
 const AppLayout = () =>{
     return (
         <div className = "app">
             <Header/>
             <Body/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 };
